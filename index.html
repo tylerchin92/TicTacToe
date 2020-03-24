@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Tic-Tac-Toe</title>
+        <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = 'header'>
+            <div id='page-title'>Tic-Tac-Toe</div>
+        </div>
+        <div id = 'container'>
+            <div id = 'player1'>
+                <div id = 'player1-info'>
+                    <input type = 'text' id = 'player1-name' placeholder="Player Name" />
+                    <div id = 'player1-display'></div>
+                    <div id = 'player1-mark'>X</div>
+                    <button id = 'player1-submit'>Submit</button>
+                    <div id = 'player1-score'>Score:</div>
+                    <div id = 'player1-num'></div>
+                </div>
+            </div>
+            <div id = 'board-wrap'>
+                <div id = 'gameboard'></div>
+                <button id = 'reset-btn'>Reset Board</button>
+            </div>
+            <div id = 'player2'>
+                <button id = 'player2-btn'>Play with another person?</button>
+                <button id = 'computer-btn'>Play against computer?</button>
+                <div id = 'computer-display'>Computer</div>
+                <input type = 'text' id = 'player2-name' placeholder="Player Name" />
+                <div id = 'player2-display'></div>
+                <div id = 'player2-mark'>O</div>
+                <button id = 'player2-submit'>Submit</button>
+                <div id = 'player2-score'>Score:</div>
+                <div id = 'player2-num'></div>
+            </div>
+
+        </div>
+        <script src = 'script.js'></script>
+    </body>
+</html>
